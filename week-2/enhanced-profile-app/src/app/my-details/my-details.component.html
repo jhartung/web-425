@@ -1,0 +1,22 @@
+<!--
+============================================
+; Title: Exercise 2.3 - Data Binding
+; Author: Professor Krasso
+; Date: 24 May 2022
+; Modified By: Joel Hartung
+; Description: Exercise 2.3 - Data Binding
+; Code Attribution: Additional code from WEB 425 Week 2 exercises and videos
+;===========================================
+-->
+
+<ul class="list-group">
+  <li class="list-group-item"><strong>Name:</strong> {{ myProfile.fullName }}</li>
+  <li class="list-group-item"><strong>Favorite Food:</strong> {{ myProfile.favoriteFood }}</li>
+  <li class="list-group-item"><strong>Favorite Color:</strong> {{ myProfile.favoriteColor }}</li>
+  <li class="list-group-item">
+    <strong>Keywords:</strong>
+    <span *ngFor="let word of myProfile.keywords">
+      {{ word }}
+    </span>
+  </li>
+</ul>
