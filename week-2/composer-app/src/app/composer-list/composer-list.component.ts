@@ -11,6 +11,8 @@
 
 import { Component, OnInit } from '@angular/core';
 
+// create and export Composer class
+
 export default class Composer {
   fullName: string;
   genre: string;
@@ -30,6 +32,7 @@ export class ComposerListComponent implements OnInit {
 
   composers: Array<Composer>;
 
+  // composers array
   constructor() {
     this.composers = [
       new Composer("Johann Sebastian Bach", "Classical"),

@@ -1,11 +1,11 @@
 /*
 ============================================
-; Title: Assignment 2.4 - Routing in Action
+; Title: Exercise 3.2 - Passing Data to Routes, Part 1
 ; Author: Professor Krasso
-; Date: 31 May 2022
+; Date: 6 June 2022
 ; Modified By: Joel Hartung
-; Description: Assignment 2.4 - Routing in Action
-; Code Attribution: Additional code from WEB 425 Week 2 exercises and videos
+; Description: Exercise 3.2 - Passing Data to Routes, Part 1
+; Code Attribution: Additional code from WEB 425 Week 3 exercises and videos
 ;===========================================
 */
 
@@ -17,5 +17,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  assignment = 'Assignment 2.4 - Routing in Action'; // Assignment title
+  assignment = 'Exercise 3.2 - Passing Data to Routes, Part 1'; // Assignment title
 }
