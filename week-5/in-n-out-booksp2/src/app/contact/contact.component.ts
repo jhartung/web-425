@@ -9,17 +9,18 @@
 ;===========================================
 */
 
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-contact',
+  templateUrl: './contact.component.html',
+  styleUrls: ['./contact.component.css']
 })
-export class AppComponent {
+export class ContactComponent implements OnInit {
 
-  assignment: string;
-  constructor() {
-    this.assignment = 'Exercise 5.2 - Navigation and Layout' // assignment title
+  constructor() { }
+
+  ngOnInit(): void {
   }
+
 }
