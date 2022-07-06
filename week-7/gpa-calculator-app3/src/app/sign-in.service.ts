@@ -18,10 +18,12 @@ export class SignInService {
 
   studentIds: Array<number>;
 
+  // student ID's allowed to sign in
   constructor() {
     this.studentIds = [1007, 1008, 1009, 1010, 1011, 1012];
   }
 
+  // validates that the student ID is a number and that the id matches
   validate(studentId: number) {
     return this.studentIds.some(id => id === studentId);
   }

@@ -22,6 +22,7 @@ export class SignInGuard implements CanActivate {
 
   constructor(private router: Router, private cookieService: CookieService) {};
 
+  // guard ensures that users must sign in
   canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
     const sessionUser = this.cookieService.get('session_user');
 

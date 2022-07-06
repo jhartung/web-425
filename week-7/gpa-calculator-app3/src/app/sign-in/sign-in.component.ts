@@ -9,6 +9,8 @@
 ;===========================================
 */
 
+
+// import statements
 import { Component, OnInit } from '@angular/core';
 import { SignInService } from '../sign-in.service';
 import { Router } from '@angular/router';
@@ -22,9 +24,10 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class SignInComponent implements OnInit {
 
-
+  // variables
   signinForm: FormGroup;
   errorMessage: string;
+
 
   constructor(private Router: Router, private cookieService: CookieService, private fb: FormBuilder, private signinService: SignInService) { }
 
@@ -32,6 +35,7 @@ export class SignInComponent implements OnInit {
     this.signinForm = this.fb.group({ studentId: ''})
   }
 
+  // login and validates student ID. Shows errorMessage if invalid ID
   onSubmit() {
     const formValues = this.signinForm.value;
     const studentId = parseInt(formValues.studentId);
