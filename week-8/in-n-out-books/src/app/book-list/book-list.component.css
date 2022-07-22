@@ -1,0 +1,19 @@
+/*
+============================================
+; Title: Assignment 8.2 - Server-side Communications
+; Author: Professor Krasso
+; Date: 12 July 2022
+; Modified By: Joel Hartung
+; Title: Assignment 8.2 - Server-side Communications
+; Code Attribution: Additional code from WEB 425 Week 8 assignment
+;===========================================
+*/
+
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}

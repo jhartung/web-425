@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>340</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>RESULTS
+--
+_id
+monthlyPayment
+interestPaid
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>70</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>APPLICATION
+--
+_id
+amount
+interestRate
+numOfYears
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>120</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+r1=1.*
+r2=1.*
+
+
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>70</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>APPLICANT
+--
+_id
+firstName
+lastName
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>200</y>
+      <w>50</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+r1=1.1
+r2=1.1
+
+
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+</diagram>

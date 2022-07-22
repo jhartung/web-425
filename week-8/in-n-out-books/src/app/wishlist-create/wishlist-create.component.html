@@ -1,0 +1,24 @@
+<!--
+============================================
+; Title: Exercise 6.2 - Input/Output Properties, Part 1
+; Author: Professor Krasso
+; Date: 27 June 2022
+; Modified By: Joel Hartung
+; Title: Exercise 6.2 - Input/Output Properties, Part 1
+; Code Attribution: Additional code from WEB 425 Week 6 exercises and videos
+;===========================================
+-->
+
+<form fxLayout="column" class="wishlist-create-form">
+  <mat-form-field fxFlex appearance="fill">
+    <mat-label>Title</mat-label>
+    <input type="text" name="title" matInput [(ngModel)]="item.title" />
+  </mat-form-field>
+
+  <mat-form-field fxFlex appearance="fill">
+    <mat-label>Authors</mat-label>
+    <input type="text" name="authors" matInput [(ngModel)]="item.authors" />
+  </mat-form-field>
+
+  <button mat-button color="primary" (click)="addItem()">Add item</button>
+</form>
